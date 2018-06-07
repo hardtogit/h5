@@ -1,0 +1,22 @@
+@function px2rem($px){
+  $rem:37.5;
+  @return  $px/37.5+rem
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+  .nav{
+    height: px2rem(44);
+    width: 100%;
+    background-color: red;
+  }
+  .list-ul{
+    list-style: none;
+    .list-li{
+      font-size: px2rem(16);
+    }
+  }
+
+
+
